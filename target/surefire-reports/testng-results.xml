@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Verify Correct Premium" duration-ms="98970" started-at="2020-03-13T11:18:22 CAT" finished-at="2020-03-13T11:20:01 CAT">
+    <groups>
+    </groups>
+    <test name="Verify Correct Premium" duration-ms="98970" started-at="2020-03-13T11:18:22 CAT" finished-at="2020-03-13T11:20:01 CAT">
+      <class name="Tests.Tea_Online_Store_Tests">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="reportSetup" is-config="true" duration-ms="87" started-at="2020-03-13T11:18:22 CAT" finished-at="2020-03-13T11:18:22 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="Add_Product_From_Store()[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="Add_Product_From_Store" duration-ms="62775" started-at="2020-03-13T11:18:22 CAT" finished-at="2020-03-13T11:19:24 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Product_From_Store -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="tearDown" is-config="true" duration-ms="7" started-at="2020-03-13T11:19:24 CAT" finished-at="2020-03-13T11:19:24 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Product_From_Store status=SUCCESS method=Tea_Online_Store_Tests.Add_Product_From_Store()[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CheckOut_Order_Test()[pri:1, instance:Tests.Tea_Online_Store_Tests@77128536]" name="CheckOut_Order_Test" duration-ms="20221" started-at="2020-03-13T11:19:24 CAT" finished-at="2020-03-13T11:19:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut_Order_Test -->
+        <test-method status="PASS" signature="Subscribe()[pri:2, instance:Tests.Tea_Online_Store_Tests@77128536]" name="Subscribe" duration-ms="8767" started-at="2020-03-13T11:19:45 CAT" finished-at="2020-03-13T11:19:53 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscribe -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-13T11:19:45 CAT" finished-at="2020-03-13T11:19:45 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckOut_Order_Test status=SUCCESS method=Tea_Online_Store_Tests.CheckOut_Order_Test()[pri:1, instance:Tests.Tea_Online_Store_Tests@77128536] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-13T11:19:53 CAT" finished-at="2020-03-13T11:19:53 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Subscribe status=SUCCESS method=Tea_Online_Store_Tests.Subscribe()[pri:2, instance:Tests.Tea_Online_Store_Tests@77128536] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Submit_Query()[pri:3, instance:Tests.Tea_Online_Store_Tests@77128536]" name="Submit_Query" duration-ms="7177" started-at="2020-03-13T11:19:53 CAT" finished-at="2020-03-13T11:20:01 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Submit_Query -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-13T11:20:01 CAT" finished-at="2020-03-13T11:20:01 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Submit_Query status=SUCCESS method=Tea_Online_Store_Tests.Submit_Query()[pri:3, instance:Tests.Tea_Online_Store_Tests@77128536] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Quit_Test()[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="Quit_Test" is-config="true" duration-ms="1149" started-at="2020-03-13T11:20:01 CAT" finished-at="2020-03-13T11:20:02 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_Test -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:Tests.Tea_Online_Store_Tests@77128536]" name="reportTeardown" is-config="true" duration-ms="225" started-at="2020-03-13T11:20:02 CAT" depends-on-methods="Tests.Tea_Online_Store_Tests.Quit_Test" finished-at="2020-03-13T11:20:02 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- Tests.Tea_Online_Store_Tests -->
+    </test> <!-- Verify Correct Premium -->
+  </suite> <!-- Verify Correct Premium -->
+</testng-results>

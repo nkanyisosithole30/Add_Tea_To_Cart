@@ -1,0 +1,10 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="1" name="Verify Correct Premium" parallel="false">
+    <test name="Verify Correct Premium">
+        <classes>
+            <class name ="Tests.Tea_Online_Store_Tests"/>
+        </classes>
+    </test>
+</suite>
